@@ -7,5 +7,6 @@ let y = 0 && 'Yes' && true; // y is equal to 0 (first falsy value)
 
 let z = true && 'Hello' && 10; // since all are truthy, z is equal to 10 (the last value)
 console.log({unique},dj,x,y,z)
+console.log({dj})
 
 // since all are false, z is equal to 0 (the last value)
